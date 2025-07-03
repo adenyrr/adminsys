@@ -49,7 +49,7 @@
 
 ### Définir les routes statiques :
 - Router(config)# ip route ‘@ réseau distinataire’ ‘masque’ ‘@ de l’interface suivante’
-- 
+
 ### Configurer le routage dynamique par le protocole de routage ‘RIP’ :
 - Router(config)# router rip
 - Router(config-router)# version ‘1/2’
@@ -71,7 +71,7 @@
 - Router(config-router)# network ‘@ de réseau voisin 2’ ‘masque générique’ area 0
 - Router(config-router)# network ‘@ de réseau voisin n’ ‘masque générique’ area 0
 - Router(config-router)# exit
-- 
+  
 ###  Les ACLs Standard :
 - Router(config)# access-list ‘1-99’ ‘permit/deny’ ‘préfixe/any’ ‘masque générique/any’
 - Router(config)# interface ‘fastethernet/serial’ ‘numéro’
