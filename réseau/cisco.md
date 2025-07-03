@@ -1,11 +1,11 @@
 ## Les commandes de configuration :
 
-### Passer à la mode privilégié :
+### Passer en mode privilégié :
 
 - Router> enable
 - Switch> enable
 
-### Passer à la mode de configuration globale : 
+### Passer en mode de configuration globale : 
 - Router# configure terminal
 - Switch# configure terminal
 
