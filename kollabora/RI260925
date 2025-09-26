@@ -1,0 +1,11 @@
+Rapport d'intervention - 26/09/25
+
+    - Installation du serveur sous debian 13, connexion par SSH via .pem
+    - Installation de curl, btop et gpg via apt
+    - Initialisation des dépots contrib et non-free
+    - Installation de docker depuis get.docker.com
+    - Installation de ufw 
+    - Création du répertoire compose dans /home/admin
+    - Copie du yaml [excalidraw](https://github.com/adenyrr/adminsys/blob/main/kollabora/compose/excalidraw/compose.yaml)
+    - ```docker compose up -d```
+    
