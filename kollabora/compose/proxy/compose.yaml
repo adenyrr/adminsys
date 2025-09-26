@@ -1,0 +1,19 @@
+services:
+    swag:
+        image: lscr.io/linuxserver/swag:latest
+        container_name: swag
+        cap_add:
+        - NET_ADMIN
+        environment:
+        - PUID=1000
+        - PGID=1000
+        - TZ=Europe/Brussels
+        - URL=domaine.com
+        - VALIDATION=dns
+        - SUBDOMAINS=wildcard
+        - DNSPLUGIN=ovh
+        volumes:
+        - ./config:/config
+        ports:
+        - 443:443
+        restart: unless-stopped
